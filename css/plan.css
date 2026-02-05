@@ -1,1 +1,99 @@
-/*# sourceMappingURL=plan.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.link {
+  color: #83888f;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+.navbar__nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+  justify-content: center;
+  padding: 50px;
+  background-image: url(../assets/create.png);
+  height: 450px;
+}
+.plan__header {
+  font-size: 72px;
+}
+.plan__text {
+  width: 445px;
+  line-height: 26px;
+}
+
+.pick {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+  height: 450px;
+  background-color: #2c343e;
+  border-radius: 50px;
+  align-items: start;
+  color: #fff;
+}
+.pick__div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.pick__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  gap: 40px;
+  line-height: 25px;
+}
+.pick__header {
+  color: #fdd6ba;
+  font-size: 72px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2c343e;
+  padding: 30px;
+}
+.footer__left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.footer__right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}/*# sourceMappingURL=plan.css.map */
